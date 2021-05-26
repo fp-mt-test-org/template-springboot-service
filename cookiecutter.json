@@ -2,6 +2,7 @@
     "owner": "Your Team",
     "component_id": "service-name",
     "artifact_id": "{{ cookiecutter.component_id }}",
+    "storePath": "https://github.com/alinamchin/{{ cookiecutter.component_id }}",
     "java_package_name": "{{ cookiecutter.component_id|replace('-', '') }}",
     "description": "We promise to update this description /{{cookiecutter.owner}}",
     "http_port": 8080,
