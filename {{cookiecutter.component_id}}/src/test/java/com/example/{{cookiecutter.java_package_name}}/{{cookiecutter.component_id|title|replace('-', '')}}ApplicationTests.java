@@ -1,4 +1,4 @@
-package com.example.{{ cookiecutter.component_id }};
+package com.example.{{ cookiecutter.java_package_name }};
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
