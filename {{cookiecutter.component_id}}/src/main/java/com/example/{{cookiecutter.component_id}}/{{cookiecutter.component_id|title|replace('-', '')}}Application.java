@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class {{cookiecutter.component_id|upper}}Application {
+public class {{cookiecutter.component_id|title|replace('-', '')}}Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run({{cookiecutter.component_id|upper}}Application.class, args);
+		SpringApplication.run({{cookiecutter.component_id|title|replace('-', '')}}Application.class, args);
 	}
 
 }
